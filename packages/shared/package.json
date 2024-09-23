@@ -1,0 +1,13 @@
+{
+  "name": "@vue_lite/shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "dist/shared.esm-bundler.js",
+  "buildOptions": {
+    "name": "VueLiteShared",
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  }
+}

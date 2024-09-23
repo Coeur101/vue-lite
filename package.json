@@ -1,0 +1,20 @@
+{
+  "name": "vue-lite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node scripts/devBuild.js reactivity -f esm"
+  },
+  "keywords": [],
+  "author": "Coeur",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "minimist": "^1.2.8",
+    "typescript": "^5.6.2"
+  }
+}

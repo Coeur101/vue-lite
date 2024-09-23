@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+<!-- <script type="module" src="./dist/reactivity.js"></script> -->
+<script type="module">
+  import {reactive,effect} from './dist/reactivity.js'
+  const info = reactive({age:123,name:"2222"})
+  const info2 = reactive(info)
+  
+  console.log(info2);
+  
+</script>  
+</body>
+</html>
